@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Lato-Thin';
-    src: url('Lato-Thin.woff2') format('woff2'),
-         url('Lato-Thin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}

@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Lato-LightItalic';
-    src: url('Lato-LightItalic.woff2') format('woff2'),
-         url('Lato-LightItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
