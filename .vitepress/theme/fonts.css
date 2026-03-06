@@ -1,0 +1,118 @@
+/* ===== 思源黑体 ===== */
+@font-face {
+  font-family: 'Noto Sans SC';
+  src: url('/fonts/source-han-sans/SourceHanSansSC-VF.ttf.woff2') format('woff2-variations');
+  font-weight: 100 1000;  /* 可变字体支持所有字重 */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Lato ===== */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Lato Light 字重（可选，用于细体效果） */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Lato Black 字重（可选，用于超粗体） */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Maple Mono ===== */
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/maple-mono/MapleMono-Regular.ttf.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/maple-mono/MapleMono-Bold.ttf.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/maple-mono/MapleMono-Italic.ttf.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/maple-mono/MapleMono-BoldItalic.ttf.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Maple Mono Medium 字重 */
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/maple-mono/MapleMono-Medium.ttf.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Maple Mono SemiBold 字重 */
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/maple-mono/MapleMono-SemiBold.ttf.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

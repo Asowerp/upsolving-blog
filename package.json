@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "fast-glob": "^3.3.3"
+  },
+  "dependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress-plugin-sidebar-resolve": "^1.2.1"
+  }
+}

@@ -1,0 +1,17 @@
+--style=google
+--indent=spaces=4
+--align-pointer=name
+--align-reference=name
+--suffix=none
+--indent-lambda
+--break-blocks
+--keep-one-line-blocks
+--keep-one-line-statements
+--pad-oper         # 运算符两边加空格
+--pad-comma        # 参数列表逗号后加空格
+--delete-empty-lines
+--remove-braces    # 可选，如果你希望极简风格
+# --delete-trailing-whitespace
+--max-code-length=50
+--break-after-logical
+--pad-include

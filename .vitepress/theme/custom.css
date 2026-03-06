@@ -1,0 +1,122 @@
+/* 导入字体定义 */
+@import './fonts.css';
+
+:root {
+  /* 正文：思源黑体为主，Lato 负责西文部分 */
+  --vp-font-family-base: "Lato", "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
+                         "Helvetica Neue", Arial, sans-serif;
+
+  /* 代码：Maple Mono 为主 */
+  --vp-font-family-mono: "Maple Mono", "JetBrains Mono", "Fira Code",
+                         "Menlo", "Courier New", monospace;
+
+  /* 字重变量映射 */
+  --vp-font-weight-light: 300;    /* Lato Light / Maple Mono Light */
+  --vp-font-weight-normal: 400;   /* Lato Regular / Maple Mono Regular */
+  --vp-font-weight-medium: 500;   /* Lato Medium? / Maple Mono Medium */
+  --vp-font-weight-semibold: 600; /* Lato SemiBold? / Maple Mono SemiBold */
+  --vp-font-weight-bold: 700;     /* Lato Bold / Maple Mono Bold */
+  --vp-font-weight-extrabold: 800; /* Lato ExtraBold? / Maple Mono ExtraBold */
+  --vp-font-weight-black: 900;    /* Lato Black */
+}
+
+/* 标题优化：让英文部分使用 Lato，中文使用思源黑体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Noto Sans SC", sans-serif;
+  font-weight: 900; /* 使用 semibold 字重 */
+  letter-spacing: -0.02em;
+}
+
+/* 特别粗的标题 */
+h1 {
+  font-weight: 900;
+}
+
+/* 正文优化 */
+body {
+  font-family: var(--vp-font-family-base);
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;  /* 优化字体渲染 */
+  -webkit-font-smoothing: antialiased; /* 优化 macOS 字体平滑 */
+  -moz-osx-font-smoothing: grayscale;  /* 优化 macOS 字体平滑 */
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  font-family: "Lato", "Noto Sans SC", sans-serif !important;
+}
+
+.vp-doc h1 {
+  font-weight: 900 !important;
+  font-variation-settings: "wght" 900 !important;
+}
+
+.vp-doc h2 {
+  font-weight: 800 !important;
+  font-variation-settings: "wght" 800 !important;
+}
+
+.vp-doc h3 {
+  font-weight: 700 !important;
+  font-variation-settings: "wght" 700 !important;
+}
+
+.vp-doc strong {
+  font-weight: 800 !important;
+  font-variation-settings: "wght" 800 !important;
+}
+
+/* 代码块样式强制使用 Maple Mono */
+.vp-doc code,
+.vp-doc pre,
+.vp-code-group pre,
+.vp-code-group code {
+  font-family: "Maple Mono", "JetBrains Mono", monospace !important;
+  font-size: 0.9em; /* 稍微调整代码字体大小，因为等宽字体可能看起来稍大 */
+}
+
+/* 行内代码样式 */
+.vp-doc :not(pre) > code {
+  font-family: "Maple Mono", "JetBrains Mono", monospace !important;
+  background-color: var(--vp-c-bg-soft);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* 导航栏字体优化 */
+.VPNavBar {
+  font-family: "Lato", "Noto Sans SC", sans-serif;
+}
+
+.VPNavBar .title {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* 侧边栏字体优化 */
+.VPSidebar {
+  font-family: "Lato", "Noto Sans SC", sans-serif;
+  letter-spacing: -0.03em;
+}
+
+/* 自定义块引用样式（可选） */
+.vp-doc blockquote {
+  font-style: italic;
+  font-family: "Lato", "Noto Sans SC", sans-serif;
+  border-left-color: var(--vp-c-brand-1);
+}
+
+/* 表格字体优化 */
+.vp-doc table {
+  font-family: var(--vp-font-family-base);
+}
+
+/* 自定义提示框字体（可选） */
+.custom-block {
+  font-family: var(--vp-font-family-base);
+}
+
+.custom-block code {
+  font-family: "Maple Mono", "JetBrains Mono", monospace !important;
+}

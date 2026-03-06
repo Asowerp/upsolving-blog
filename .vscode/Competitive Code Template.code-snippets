@@ -1,0 +1,67 @@
+{
+	"CodeForces Coding Template": {
+	"prefix": "CFCT",
+	"body": [
+		"#include <bits/stdc++.h>",
+		"",
+		"using namespace std;",
+		"",
+		"void solve() {",
+		"",
+		"}",
+		"",
+		"int main() {",
+		"    ios::sync_with_stdio(false);",
+		"    cin.tie(nullptr);",
+		"    cout.tie(nullptr);",
+		"    int t;",
+		"    cin >> t;",
+		"    while (t--) {",
+		"        solve();",
+		"    }",
+		"    return 0;",
+		"}",
+		""
+	],
+	"description": "Competitive Coding Template"
+	},
+	"Template2": {
+		"prefix": "CT",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"",
+			"using namespace std;",
+			"",
+			"#define all(x) begin(x), end(x)",
+			"#define sz(x) (int) (x).size()",
+			"",
+			"using ll = long long;",
+			"using pii = pair<int, int>;",
+			"using vi = vector<int>;",
+			"using usi = unordered_set<int>;",
+			"",
+			"int main() {",
+			"    cin.tie(nullptr)->sync_with_stdio(false);",
+			"    return 0;",
+			"}",
+			""
+		],
+		"description": ""
+		},
+	"Templace_py": {
+		"prefix": "PYCT",
+		"body": [
+			"import sys",
+			"from collections import defaultdict, deque, Counter",
+			"from itertools import accumulate, permutations, combinations",
+			"from heapq import heappush, heappop, heapify",
+			"from bisect import bisect_left, bisect_right",
+			"from functools import lru_cache",
+			"",
+			"sys.setrecursionlimit(2000000)",
+			"",
+			"input = sys.stdin.readline"
+		],
+		"description": ""
+	}
+}
