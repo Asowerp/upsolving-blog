@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "解题记录"
-  text: "记录赛时题解与赛后补题"
+  text: "赛时题解 & 赛后补题"
   tagline: "Talk is cheap, show me the code."
   actions:
     - theme: brand
@@ -16,12 +16,15 @@ hero:
     - theme: brand
       text: LeetCode 题解
       link: /leetcode
+    - theme: alt
+      text: 日常做题
+      link: /daily
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: 关于字体...
+    details: 本博客正文采用思源黑体（中文）与 Lato（西文），代码采用 Maple Mono（开启连字）。
+  - title: 关于语言选用...
+    details: 出于个人习惯，笔者首选语言是 C++，次选是 Python。
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
