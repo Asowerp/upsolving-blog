@@ -41,7 +41,9 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'AtCoder', link: '/atcoder/' },
       { text: 'LeetCode', link: '/leetcode/' },
-      { text: 'Codeforces', link: '/codeforces/' }
+      { text: 'Codeforces', link: '/codeforces/' },
+      { text: '日常做题', link: '/daily/' }
+
     ],
 
     // sidebar: [
