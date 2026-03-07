@@ -120,3 +120,17 @@ body {
 .custom-block code {
   font-family: "Maple Mono", "JetBrains Mono", monospace !important;
 }
+
+/* docs/.vitepress/theme/custom.css */
+
+mjx-container[style*="display: block;"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 4px;
+}
+
+/* 确保SVG正确显示 */
+/* mjx-container > svg {
+  display: inline-block;
+} */
